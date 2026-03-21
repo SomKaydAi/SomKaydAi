@@ -1,51 +1,64 @@
-# 🌌 SomKaydAi: The Sovereign Somali Intelligence Hub 🚀
+# <p align="center">🌌 SomKaydAi Intelligence 🚀</p>
 
-Welcome to **SomKaydAi**, a unique AI ecosystem architected to process, preserve, and power the Somali digital landscape. This is a fully independent intelligence platform designed to be the ultimate digital companion for every Somali.
-
----
-
-### 🧠 SomKaydAi: Everything You Need, All in One Place
-SomKaydAi is engineered as a unified "All-in-One" system. Our infrastructure consists of specialized engines built to solve real-world problems:
-
-| Engine | Role | Purpose |
-| :--- | :--- | :--- |
-| **Kayd-Intelligence** | Primary Brain | Reasoning, problem-solving, and instant answers. |
-| **Som-NLP** | Linguistic Specialist | Deep processing and refinement of the Somali language. |
-| **Vision-X** | Multimodal Eye | Analysis and generation of visual and video content. |
-| **Shield-Guard** | Digital Protector | Cybersecurity intelligence and asset fortification. |
+<p align="center">
+  <img src="1000003494.png" width="300" alt="SomKaydAi Logo">
+</p>
 
 ---
 
-### ⚡ Core Capabilities
-SomKaydAi is designed to handle any task you require, functioning as a complete digital service center:
-
-* **Sovereign Intelligence:** Providing high-level insights and data synthesis across all fields (IT, Media, Science).
-* **Cultural Preservation:** Protecting and indexing Somali history, literature, and identity using AI.
-* **Technical Mastery:** Specialized in Python development, Cybersecurity audits, and IT infrastructure.
-* **Operational Excellence:** Integrating professional logistics and fleet expertise (CDL-A) into smart systems.
-
----
-
-### 🛠 Technology Stack
-Building the future of Somali technology with world-class tools:
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![CyberSecurity](https://img.shields.io/badge/CyberSecurity-000000?style=for-the-badge&logo=hackthebox&logoColor=white)
-![Cloud](https://img.shields.io/badge/Cloud_Computing-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+### 🌐 System Overview: SomKaydAi
+| Entity | Information |
+| :--- | :--- |
+| **Developer** | SomKaydAi Hub |
+| **Initial Release** | March 2026 |
+| **Engine** | Kayd-Intelligence 1.0 (Som-NLP) |
+| **Platform** | Cloud Computing & Edge AI |
+| **Available in** | Somali, English & Multi-dialect support |
+| **Type** | Large Language Model (LLM) & Intelligence Hub |
+| **License** | Sovereign Digital Asset |
+| **Website** | [github.com/SomKaydAi](https://github.com/SomKaydAi) |
 
 ---
 
-### 📈 Mission Roadmap
-- [ ] **Phase 1:** Strengthening the **Kayd-Intelligence** core for native Somali logic.
-- [ ] **Phase 2:** Launching a dedicated interactive interface for public access.
-- [ ] **Phase 3:** Revolutionizing Somali Media and Education through autonomous AI integration.
+### 🤖 The Intelligence Ecosystem
+SomKaydAi is an autonomous digital brain designed to empower the Somali people through advanced technology and local context.
+
+* **Kayd-Intelligence:** Our core reasoning engine—built to answer, code, and solve problems.
+* **Som-NLP:** A specialized model for refining and preserving the Somali language in the digital age.
+* **Vision-X:** A multimodal interface that understands and analyzes images and videos.
+* **Shield-Guard:** Advanced cybersecurity intelligence for protecting sovereign data.
 
 ---
 
-### 🤝 Join the Mission
-SomKaydAi is more than a platform—it is a digital revolution for the Somali people.
+### ⚡ Technical Capabilities
+* **High-Level Synthesis:** Processes global data and delivers it in actionable Somali insights.
+* **Technical Sovereignty:** Expert-level support for Python, Cybersecurity, and AI Infrastructure.
+* **Strategic Logistics:** Integrating professional CDL-A logistics expertise with autonomous systems.
+* **Cultural Archiving:** Digitizing Somali history and literature using AI-driven indexing.
+
+---
+
+### 🛠 Tech Stack & Tools
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/CyberSecurity-000000?style=for-the-badge&logo=hackthebox&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+</p>
+
+---
+
+### 📈 Future Roadmap
+- [ ] **Q2 2026:** Expanding the Somali NLP dataset to include rural dialects.
+- [ ] **Q3 2026:** Launching the SomKaydAi public interactive dashboard.
+- [ ] **Q4 2026:** Full-scale AI integration for Somali Media and Educational institutions.
+
+---
+
+### 🤝 Strategic Collaboration
+SomKaydAi is a movement for digital independence. We welcome developers, researchers, and creators.
 
 * **Developer Hub:** [@SomKaydAi](https://github.com/SomKaydAi)
-* **Vision:** *"Intelligence for the Somali People, by SomKaydAi."*
+* **Motto:** *"Intelligence for the Somali People, by SomKaydAi."*
 
 ---
