@@ -1,31 +1,51 @@
-# 👋 Isbarasho: SomKaydAi 🚀
+# 🌌 SomKaydAi: The Somali Intelligence Frontier 🚀
 
-Welcome to my official GitHub profile! I am a **Digital Content Creator**, **IT & Cybersecurity Student**, and **Founder** of multiple media platforms. My mission is to bridge the gap between traditional Somali heritage and modern AI technology.
-
----
-
-### 🧬 Core Initiatives
-* **KaydAI:** A pioneering project focused on building **Somali Natural Language Processing (NLP)** datasets and AI prototypes to preserve our digital heritage.
-* **GNN Daily:** A global news and investigative journalism platform providing high-quality analysis and documentary content.
-* **Somali Untold TV:** A digital media brand dedicated to storytelling and cultural documentation.
-
-### 🛠 Technical & Professional Skillset
-* **Information Technology:** Pursuing certifications in **Cybersecurity (Cisco/Google)** and **Python Programming**.
-* **Digital Branding:** Expert in aesthetic consistency, logo design, and strategic content layout.
-* **Logistics & Operations:** Professional background in **Fulfillment Logistics** and **Commercial Transportation (CDL Class A)**.
-
-### 📊 Current Goals (2026)
-- [ ] **AI Development:** Scaling the KaydAI dataset for better Somali language understanding.
-- [ ] **Content Innovation:** Launching advanced investigative series on GNN Daily.
-- [ ] **Cybersecurity:** Finalizing professional security audits for my digital platforms.
+Welcome to **SomKaydAi**, a next-generation AI ecosystem designed to process, preserve, and power the Somali digital landscape. Inspired by the capabilities of Gemini and GPT, we are building the first comprehensive **Somali-Centric AI**.
 
 ---
 
-### 🤝 Connect with Me
-I am always open to collaborating on **AI research**, **Open Source projects**, and **Investigative Journalism**.
+### 🤖 Our Core Models & Engines
+Sida Gemini iyo ChatGPT, SomKaydAi waxay ka kooban tahay dhowr qaybood oo maskaxeed:
 
-* **GitHub:** [@SomKaydAi](https://github.com/SomKaydAi)
-* **Location:** Columbus, Ohio 📍
+| Engine | Purpose | Status |
+| :--- | :--- | :--- |
+| **Kayd-NLP** | Large Language Model (LLM) for Somali Dialects | 🛠 Training |
+| **GNN-Pulse** | Real-time Global News Analysis & Intelligence | 📡 Live |
+| **SML-Vision** | Visual Content & Documentary Engineering | 🎬 Active |
+| **Shield-Guard** | Cybersecurity & Digital Asset Protection | 🛡 Hardened |
 
 ---
-*"Preserving the past, building the future through Intelligence."*
+
+### 💡 Capabilities: "Wax walba oo aad u baahan tahay"
+SomKaydAi ma aha oo kaliya kayd xog, waa mashiin xalliya dhibaatooyinka:
+
+* **Multimodal Intelligence:** Ka shaqaynta qoraalka, maqalka, iyo muuqaalka (Text-to-Speech & Speech-to-Text).
+* **Knowledge Synthesis:** Soo koobidda xogta caalamiga ah iyo u beddelidda aqoon la isticmaali karo.
+* **Cultural Preservation:** Kaydinta suugaanta iyo taariikhda Soomaalida iyadoo la isticmaalayo AI Algorithms.
+* **Strategic Logistics:** Isku xirka silsiladaha saadka (Supply Chain) iyo farsamada dhijitaalka ah.
+
+---
+
+### 🛠 Technology Stack
+Waxaan isticmaalnaa qalabka ugu casrisan dunida:
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![CyberSecurity](https://img.shields.io/badge/CyberSecurity-000000?style=for-the-badge&logo=hackthebox&logoColor=white)
+![Cloud](https://img.shields.io/badge/Cloud_Computing-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+---
+
+### 📈 Road-to-AGI (Somali Context)
+- [ ] **Phase 1:** Building the largest Somali NLP Open-Source Dataset.
+- [ ] **Phase 2:** Launching the SomKaydAi Interactive Assistant.
+- [ ] **Phase 3:** Integrating AI into Somali Education & Journalism.
+
+---
+
+### 🤝 Connect with the Intelligence
+SomKaydAi is open for collaboration, research, and innovation.
+
+* **Developer Hub:** [@SomKaydAi](https://github.com/SomKaydAi)
+* **Mission:** *"Empowering Somalis through Data & Artificial Intelligence."*
+
+---
