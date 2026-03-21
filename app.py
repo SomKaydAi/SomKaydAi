@@ -1,27 +1,28 @@
+import os
 import telebot
+from flask import Flask
 
-# Halkan waa Token-kaagii rasmiga ahaa
-TOKEN = "8299416894:AAG2YUeUq6qGQPiNCDadNJt5QQHqrVMwIDs"
+# 1. Halkan code-ku isagaa Render ka soo akhrisanaya Token-ka
+TOKEN = os.environ.get('BOT_TOKEN')
 bot = telebot.TeleBot(TOKEN)
 
-@bot.message_handler(commands=['start', 'help'])
+# 2. Flask wuxuu u baahan yahay Render si uu u ogaado in bot-ku nool yahay
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "KaydAI Bot is running!"
+
+# 3. Marka qofku bilaabo bot-ka (/start)
+@bot.message_handler(commands=['start'])
 def send_welcome(message):
-    welcome_text = (
-        "🌟 **Kusoo dhawaaw SomKaydAi Intelligence!** 🚀\n\n"
-        "Waxaan ahay AI-gii ugu horreeyay ee loogu talagalay "
-        "horumarinta iyo kaydinta aqoonta Soomaaliyeed.\n\n"
-        "Sideen kuu caawin karaa maanta?"
-    )
-    bot.reply_to(message, welcome_text, parse_mode='Markdown')
+    bot.reply_to(message, "Ku soo dhawaada KaydAI! Bot-kaagu hadda waa mid ammaan ah.")
 
-@bot.message_handler(func=lambda message: True)
-def echo_all(message):
-    # Halkan waxaan ku diyaarinaynaa jawaabaha AI-ga
-    user_query = message.text
-    response = f"SomKaydAi ayaa helay fariintaada: '{user_query}'. " \
-               f"Weli waxaan ku jiraa wejigii tababarka (Training), " \
-               f"laakiin dhowaan ayaan si buuxda u jawaabi doonaa!"
-    bot.reply_to(message, response)
-
-print("SomKaydAi Bot is now running...")
-bot.infinity_polling()
+# 4. Inuu bot-ku dhageysto farriimaha (Polling)
+if __name__ == "__main__":
+    import threading
+    threading.Thread(target=bot.infinity_polling).start()
+    
+    # Port-ka uu Render bixiyo
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
