@@ -1,15 +1,3 @@
----
-title: "SomKaydAI Chatbot"
-emoji: "🤖"
-colorFrom: "blue"
-colorTo: "yellow"
-sdk: "streamlit"
-sdk_version: "1.32.0"
-python_version: "3.10"
-app_file: "app.py"
-pinned: false
----
-
 # SomKaydAI Chatbot 🤖
 
 SomKaydAI waa chatbot ku shaqeeya Streamlit iyo Transformers.
