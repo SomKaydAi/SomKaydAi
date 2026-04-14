@@ -1,25 +1,29 @@
-import os
-import telebot
-from flask import Flask
+# SomKaydAI main application
 
-# 1. Token-ka wuxuu ka imaanayaa Render Environment Variables
-TOKEN = os.environ.get('BOT_TOKEN')
-bot = telebot.TeleBot(TOKEN)
+from core_engine import SomKaydAIEngine
+from nlp_pipeline import preprocess
+from utils import format_response, is_valid_input
 
-app = Flask(__name__)
+def main():
+    engine = SomKaydAIEngine()
 
-@app.route('/')
-def index():
-    return "KaydAI Bot is running!"
+    print("SomKaydAI Chatbot 🤖 Ready!")
+    while True:
+        user_input = input("You: ")
 
-@bot.message_handler(commands=['start'])
-def send_welcome(message):
-    bot.reply_to(message, "Ku soo dhawaada KaydAI! Bot-kaagu hadda waa mid ammaan ah.")
+        if user_input.lower() in ["exit", "quit", "bye"]:
+            print("SomKaydAI: Nabad gelyo!")
+            break
+
+        if not is_valid_input(user_input):
+            print("SomKaydAI: Fadlan qor wax sax ah.")
+            continue
+
+        processed = preprocess(user_input)
+        raw_response = engine.generate_response(processed)
+        final_response = format_response(raw_response)
+
+        print(f"SomKaydAI: {final_response}")
 
 if __name__ == "__main__":
-    import threading
-    threading.Thread(target=bot.infinity_polling).start()
-    
-    # Render wuxuu isticmaalaa Port-kan
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+    main()
