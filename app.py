@@ -1,29 +1,20 @@
-# SomKaydAI main application
+import streamlit as st
+from core_engine import *
+from nlp_pipeline import *
+from utils import *
 
-from core_engine import SomKaydAIEngine
-from nlp_pipeline import preprocess
-from utils import format_response, is_valid_input
+st.title("SomKaydAI Chatbot 🤖")
+st.write("Ku qor fariintaada hoose:")
 
-def main():
-    engine = SomKaydAIEngine()
+engine = SomKaydAI()
 
-    print("SomKaydAI Chatbot 🤖 Ready!")
-    while True:
-        user_input = input("You: ")
+user_input = st.text_input("You:")
 
-        if user_input.lower() in ["exit", "quit", "bye"]:
-            print("SomKaydAI: Nabad gelyo!")
-            break
-
-        if not is_valid_input(user_input):
-            print("SomKaydAI: Fadlan qor wax sax ah.")
-            continue
-
-        processed = preprocess(user_input)
-        raw_response = engine.generate_response(processed)
-        final_response = format_response(raw_response)
-
-        print(f"SomKaydAI: {final_response}")
-
-if __name__ == "__main__":
-    main()
+if user_input:
+    if user_input == "exit":
+        st.write("Goodbye!")
+    elif not is_valid(user_input):
+        st.write("Invalid input, try again.")
+    else:
+        response = engine.process(user_input)
+        st.write("SomKaydAI:", response)
